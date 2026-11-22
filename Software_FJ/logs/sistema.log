@@ -1,0 +1,122 @@
+2026-11-21 19:48:15,509 | INFO | SoftwareFJ | Cliente registrado: C001.
+2026-11-21 19:48:15,510 | WARNING | SoftwareFJ | 2. Registro inválido controlado: El correo electrónico no tiene un formato válido.
+2026-11-21 19:48:15,510 | INFO | SoftwareFJ | Cliente registrado: C003.
+2026-11-21 19:48:15,511 | INFO | SoftwareFJ | Servicio agregado: S001.
+2026-11-21 19:48:15,512 | INFO | SoftwareFJ | Servicio agregado: S002.
+2026-11-21 19:48:15,512 | INFO | SoftwareFJ | Servicio agregado: S003.
+2026-11-21 19:48:15,512 | WARNING | SoftwareFJ | 7. Servicio inválido rechazado: El precio base debe ser un número positivo.
+2026-11-21 19:48:15,519 | INFO | SoftwareFJ | Reserva creada: R001.
+2026-11-21 19:48:15,519 | INFO | SoftwareFJ | Reserva R001 confirmada para cliente C001.
+2026-11-21 19:48:15,519 | INFO | SoftwareFJ | Reserva R001 procesada. Total: $119000.00
+2026-11-21 19:48:15,520 | INFO | SoftwareFJ | Reserva creada: R002.
+2026-11-21 19:48:15,520 | INFO | SoftwareFJ | Reserva R002 confirmada para cliente C003.
+2026-11-21 19:48:15,521 | INFO | SoftwareFJ | Reserva R002 procesada. Total: $108000.00
+2026-11-21 19:48:15,521 | INFO | SoftwareFJ | Reserva creada: R003.
+2026-11-21 19:48:15,522 | INFO | SoftwareFJ | Reserva R003 confirmada para cliente C001.
+2026-11-21 19:48:15,522 | INFO | SoftwareFJ | Reserva R003 procesada. Total: $180880.00
+2026-11-21 19:48:15,522 | INFO | SoftwareFJ | Reserva creada: R004.
+2026-11-21 19:48:15,523 | WARNING | SoftwareFJ | 11. Reserva fallida controlada: La cantidad de personas supera la capacidad de la sala.
+2026-11-21 19:48:15,523 | INFO | SoftwareFJ | Reserva creada: R005.
+2026-11-21 19:48:15,524 | WARNING | SoftwareFJ | 12. Servicio no disponible controlado: El servicio 'Video beam' no está disponible.
+2026-11-21 19:48:15,524 | INFO | SoftwareFJ | Reserva creada: R006.
+2026-11-21 19:48:15,525 | INFO | SoftwareFJ | Reserva R006 cancelada.
+2026-11-21 19:48:15,525 | WARNING | SoftwareFJ | 14. Búsqueda controlada: No existe el cliente C999.
+2026-11-21 19:48:15,526 | ERROR | SoftwareFJ | 17. Ejemplo de encadenamiento de excepciones: Error de conversión durante una operación de reserva.
+Traceback (most recent call last):
+  File "C:\Users\luisu\Desktop\Software_FJ\main.py", line 414, in ejecutar_demo
+    int("dato-no-numerico")
+    ~~~^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'dato-no-numerico'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\luisu\Desktop\Software_FJ\main.py", line 418, in ejecutar_demo
+    raise ReservaError(
+        "Error de conversión durante una operación de reserva."
+    ) from error_original
+excepciones.ReservaError: Error de conversión durante una operación de reserva.
+2026-11-21 19:48:59,926 | INFO | SoftwareFJ | Cliente registrado: C100.
+2026-11-21 19:48:59,927 | INFO | SoftwareFJ | Servicio agregado: S100.
+2026-11-21 19:48:59,928 | INFO | SoftwareFJ | Cliente registrado: C100.
+2026-11-21 19:48:59,928 | INFO | SoftwareFJ | Servicio agregado: S100.
+2026-11-21 19:48:59,929 | INFO | SoftwareFJ | Cliente registrado: C100.
+2026-11-21 19:48:59,929 | INFO | SoftwareFJ | Servicio agregado: S100.
+2026-11-21 19:48:59,931 | INFO | SoftwareFJ | Reserva creada: R101.
+2026-11-21 19:48:59,932 | INFO | SoftwareFJ | Cliente registrado: C100.
+2026-11-21 19:48:59,933 | INFO | SoftwareFJ | Servicio agregado: S100.
+2026-11-21 19:48:59,934 | INFO | SoftwareFJ | Cliente registrado: C100.
+2026-11-21 19:48:59,934 | INFO | SoftwareFJ | Servicio agregado: S100.
+2026-11-21 19:48:59,934 | INFO | SoftwareFJ | Reserva creada: R102.
+2026-11-21 19:48:59,935 | INFO | SoftwareFJ | Cliente registrado: C100.
+2026-11-21 19:48:59,935 | INFO | SoftwareFJ | Servicio agregado: S100.
+2026-11-21 19:48:59,935 | INFO | SoftwareFJ | Cliente registrado: C100.
+2026-11-21 19:48:59,936 | INFO | SoftwareFJ | Servicio agregado: S100.
+2026-11-21 19:48:59,936 | INFO | SoftwareFJ | Reserva creada: R100.
+2026-11-21 19:48:59,936 | INFO | SoftwareFJ | Reserva R100 confirmada para cliente C100.
+2026-11-21 19:48:59,936 | INFO | SoftwareFJ | Reserva R100 procesada. Total: $100000.00
+2026-11-21 19:48:59,937 | INFO | SoftwareFJ | Cliente registrado: C100.
+2026-11-21 19:48:59,937 | INFO | SoftwareFJ | Servicio agregado: S100.
+2026-11-21 19:48:59,937 | INFO | SoftwareFJ | Cliente registrado: C100.
+2026-11-21 19:48:59,937 | INFO | SoftwareFJ | Servicio agregado: S100.
+2026-11-21 20:05:53,226 | INFO | SoftwareFJ | Cliente registrado: C100.
+2026-11-21 20:05:53,227 | INFO | SoftwareFJ | Servicio agregado: S100.
+2026-11-21 20:05:53,229 | INFO | SoftwareFJ | Cliente registrado: C100.
+2026-11-21 20:05:53,229 | INFO | SoftwareFJ | Servicio agregado: S100.
+2026-11-21 20:05:53,229 | INFO | SoftwareFJ | Cliente registrado: C100.
+2026-11-21 20:05:53,230 | INFO | SoftwareFJ | Servicio agregado: S100.
+2026-11-21 20:05:53,233 | INFO | SoftwareFJ | Reserva creada: R101.
+2026-11-21 20:05:53,234 | INFO | SoftwareFJ | Cliente registrado: C100.
+2026-11-21 20:05:53,234 | INFO | SoftwareFJ | Servicio agregado: S100.
+2026-11-21 20:05:53,235 | INFO | SoftwareFJ | Cliente registrado: C100.
+2026-11-21 20:05:53,235 | INFO | SoftwareFJ | Servicio agregado: S100.
+2026-11-21 20:05:53,235 | INFO | SoftwareFJ | Reserva creada: R102.
+2026-11-21 20:05:53,236 | INFO | SoftwareFJ | Cliente registrado: C100.
+2026-11-21 20:05:53,236 | INFO | SoftwareFJ | Servicio agregado: S100.
+2026-11-21 20:05:53,237 | INFO | SoftwareFJ | Cliente registrado: C100.
+2026-11-21 20:05:53,237 | INFO | SoftwareFJ | Servicio agregado: S100.
+2026-11-21 20:05:53,237 | INFO | SoftwareFJ | Reserva creada: R100.
+2026-11-21 20:05:53,237 | INFO | SoftwareFJ | Reserva R100 confirmada para cliente C100.
+2026-11-21 20:05:53,238 | INFO | SoftwareFJ | Reserva R100 procesada. Total: $100000.00
+2026-11-21 20:05:53,238 | INFO | SoftwareFJ | Cliente registrado: C100.
+2026-11-21 20:05:53,238 | INFO | SoftwareFJ | Servicio agregado: S100.
+2026-11-21 20:05:53,239 | INFO | SoftwareFJ | Cliente registrado: C100.
+2026-11-21 20:05:53,239 | INFO | SoftwareFJ | Servicio agregado: S100.
+2026-11-21 20:06:09,337 | INFO | SoftwareFJ | Cliente registrado: C001.
+2026-11-21 20:06:09,338 | WARNING | SoftwareFJ | 2. Registro inválido controlado: El correo electrónico no tiene un formato válido.
+2026-11-21 20:06:09,338 | INFO | SoftwareFJ | Cliente registrado: C003.
+2026-11-21 20:06:09,339 | INFO | SoftwareFJ | Servicio agregado: S001.
+2026-11-21 20:06:09,340 | INFO | SoftwareFJ | Servicio agregado: S002.
+2026-11-21 20:06:09,340 | INFO | SoftwareFJ | Servicio agregado: S003.
+2026-11-21 20:06:09,341 | WARNING | SoftwareFJ | 7. Servicio inválido rechazado: El precio base debe ser un número positivo.
+2026-11-21 20:06:09,344 | INFO | SoftwareFJ | Reserva creada: R001.
+2026-11-21 20:06:09,344 | INFO | SoftwareFJ | Reserva R001 confirmada para cliente C001.
+2026-11-21 20:06:09,345 | INFO | SoftwareFJ | Reserva R001 procesada. Total: $119000.00
+2026-11-21 20:06:09,345 | INFO | SoftwareFJ | Reserva creada: R002.
+2026-11-21 20:06:09,345 | INFO | SoftwareFJ | Reserva R002 confirmada para cliente C003.
+2026-11-21 20:06:09,346 | INFO | SoftwareFJ | Reserva R002 procesada. Total: $108000.00
+2026-11-21 20:06:09,346 | INFO | SoftwareFJ | Reserva creada: R003.
+2026-11-21 20:06:09,347 | INFO | SoftwareFJ | Reserva R003 confirmada para cliente C001.
+2026-11-21 20:06:09,347 | INFO | SoftwareFJ | Reserva R003 procesada. Total: $180880.00
+2026-11-21 20:06:09,347 | INFO | SoftwareFJ | Reserva creada: R004.
+2026-11-21 20:06:09,348 | WARNING | SoftwareFJ | 11. Reserva fallida controlada: La cantidad de personas supera la capacidad de la sala.
+2026-11-21 20:06:09,348 | INFO | SoftwareFJ | Reserva creada: R005.
+2026-11-21 20:06:09,349 | WARNING | SoftwareFJ | 12. Servicio no disponible controlado: El servicio 'Video beam' no está disponible.
+2026-11-21 20:06:09,349 | INFO | SoftwareFJ | Reserva creada: R006.
+2026-11-21 20:06:09,350 | INFO | SoftwareFJ | Reserva R006 cancelada.
+2026-11-21 20:06:09,351 | WARNING | SoftwareFJ | 14. Búsqueda controlada: No existe el cliente C999.
+2026-11-21 20:06:09,352 | ERROR | SoftwareFJ | 17. Ejemplo de encadenamiento de excepciones: Error de conversión durante una operación de reserva.
+Traceback (most recent call last):
+  File "C:\Users\luisu\Desktop\Software_FJ\main.py", line 414, in ejecutar_demo
+    int("dato-no-numerico")
+    ~~~^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'dato-no-numerico'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\luisu\Desktop\Software_FJ\main.py", line 418, in ejecutar_demo
+    raise ReservaError(
+        "Error de conversión durante una operación de reserva."
+    ) from error_original
+excepciones.ReservaError: Error de conversión durante una operación de reserva.
